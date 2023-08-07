@@ -26,23 +26,21 @@
     background-size: cover;
     height: auto;
     
-    @include g.mq(md){
-        padding: 2vw;    
-        margin: 5vw 2vw;
-        min-height: 643px;
-        height: 100%;
-        display: grid;
-        align-items: end;
-        }
+            @include g.mq(md){
+                padding: 2vw;    
+                margin: 5vw 2vw;
+                min-height: 643px;
+                height: 100%;
+                display: grid;
+                align-items: end;
+                }
 
-      @include g.mq(lg){
-         margin-top: 4rem;  
-       /* display: flex;    */
-        flex-flow: column;
-        justify-content: flex-end;
-        height: 68.7vw;
-       
-}
+            @include g.mq(lg){
+                margin-top: 4rem;  
+            /* display: flex;    */
+                flex-flow: column;
+                justify-content: flex-end;
+            }
 }
 
 
@@ -93,4 +91,8 @@ margin-top: auto;
      padding: 2.666666666666667vw ;
      
 }
+}
+
+.l-contens__title{
+    margin-bottom: auto;
 }

@@ -173,7 +173,6 @@ img {
     -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    height: 68.7vw;
   }
 }
 
@@ -221,6 +220,10 @@ img {
   .l-item {
     padding: 2.6666666667vw;
   }
+}
+
+.l-contens__title {
+  margin-bottom: auto;
 }
 
 #l-header {
@@ -789,7 +792,6 @@ section.figcaption-2 {
 @media screen and (min-width: 1025px) {
   .p-solution__list {
     background-image: url(../../../img/map.png);
-    margin-top: 4vw;
   }
 }
 
