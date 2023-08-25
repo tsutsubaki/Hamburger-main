@@ -1,64 +1,11 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-  <title>page Hamburger</title>
-
-  <meta charset="UTF-8">
-
-  <!-- Webサイトの説明を検索エンジンに伝える -->
-  <meta name="description" content="ハンバーガーサイト">
-
-  <!-- サイトの表示領域を、閲覧するデバイスの幅に合わせる -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-  <link rel="stylesheet" href="./css/style.css" type="text/css">
-
-  <!-- jQuery -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/　
-jquery.min.js">
-</script>-->
-
-  <script src="https://kit.fontawesome.com/b0d0736d54.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <article class="c-wrapper ">
-
-    <main class="c-main">
-      <header id="l-header">
-
-        <!--Menuから✖️-->
-        <div id="l-header__content">
-          <div id="l-header__menu" class="button">Menu</div>
-          <a href="/index.html">
-            <div id="l-header__logo"> Hamburger</div>
-        </div><!--l-header__content-->
-        </a><!--index.html-->
-
-        <!-- ヘッダー検索ボタン -->
-        <div class="c-search-box">
-          <form id="form1" class="c-form">
-            <input id="sbox1" name="s" type="text">
-            <input id="sbtn1" class="button" type="submit" value="検索">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </form>
-        </div><!--c-search-box-->
-
-      </header>
+<?php get_header(); ?>
 
       <div class="l-main">
         <div class="l-main__content">
-          <div class="p-single__caption p-page__caption">
-            <div class="c-top__title p-top__title p-single__static p-single__toptitle ">ショップについて</div>
-
+          <div class="p-single__caption">
+            <div class="c-top__title p-top__title p-single__static p-single__toptitle ">h1</div>
+            <div class="p-title p-single__static ">チーズバーガー</div>
           </div><!--p-single__caption-->
-
           <div class="p-contents p-single__contents">
             <div class="p-center__caption">
               <h1 class="p-sub__title">見出しh2</h1>
@@ -67,12 +14,10 @@ jquery.min.js">
                 pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。
               </p>
             </div><!--p-center__caption-->
-
             <h3 class="l-single__bottom">見出しh3</h3>
             <h4 class="l-single__bottom">見出しh4</h4>
             <h4 class="l-single__bottom">見出しh5</h4>
             <h4 class="l-single__bottom">見出しh6</h4>
-
             <blockquote class="l-single__top p-single__blockquote">
               Blockquote 引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ
               引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ
@@ -81,14 +26,11 @@ jquery.min.js">
               引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ
               引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ
               引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ
-
               <div class="p-single__tag">出典元：<p>○○○○○○○○○○○○</p>
               </div>
 
             </blockquote>
-
             <div class="p-single__image"><img src="/img/single page second.png" alt="ハンバーガー"></div>
-
             <div class="l-single__grid">
 
               <img src="/img/single page small.png" alt="ハンバーガー">
@@ -98,9 +40,7 @@ jquery.min.js">
                 テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります
                 テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります
               </blockquote>
-
             </div><!--l-single__flex-->
-
             <div class="l-single__grid">
 
               <blockquote class="p-single__small__blockquote p-single__small__blockquote__inner"> テキストが入ります テキストが入ります
@@ -111,13 +51,9 @@ jquery.min.js">
               </blockquote>
 
               <img src="/img/single page small.png" alt="ハンバーガー">
-
             </div><!--l-single__flex-->
-
             <img src="/img/single page small.png" alt="ハンバーガー" class=" p-single__smallpic__first">
-
             <div class="l-single__grid__layout">
-
               <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
               <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
               <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
@@ -128,29 +64,22 @@ jquery.min.js">
               <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
               <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
             </div>
-
             <div class="l-single__bottom__background">
-
               <div class="l-single__list__inner">
-
                 <ol class="l-single__list__style">
                   <li>1.リストリストリスト</li>
                   <li>2.リストリストリスト</li>
                 </ol>
-
                 <ol class="l-single__list__style">
                   <li>1.リストリストリスト2</li>
                   <li>2.リストリストリスト2</li>
                 </ol>
-
                 <ol class="l-single__list__style">
                   <li>1.リストリストリスト</li>
                   <li>2.リストリストリスト</li>
                 </ol>
 
               </div><!--l-single__list__inner-->
-
-
               <div class="l-single__list__inner">
                 <ol class="l-single__list__style">
                   <li>リストリストリスト</li>
@@ -161,15 +90,12 @@ jquery.min.js">
                   <li>リストリストリスト2</li>
                   <li>リストリストリスト2</li>
                 </ol>
-
                 <ol class="l-single__list__style">
                   <li>リストリストリスト</li>
                   <li>リストリストリスト</li>
                 </ol>
-
               </div><!--l-single__list__inner-->
-
-            </div><!--p-contents-->
+            </div><!--l-single__bottom__background-->
 
             <code class="c-single__code">
 
@@ -185,8 +111,8 @@ jquery.min.js">
             <div class="code"> &lt;/html&gt;</div>
 
             </code><!--c-single__code"-->
-
             <table class="c-table">
+
               <tr class="c-table__tr">
                 <td>テーブル</td>
                 <td>テーブル</td>
@@ -209,32 +135,25 @@ jquery.min.js">
               </tr>
 
             </table>
-
             <!--ボタン-->
             <input type="button" value="ボタン" class="c-single__button">
-
             <div class="l-single__bold">
               <p class="l-single__bold">boldboldboldboldboldboldbold</p>
             </div><!--l-single__bold"-->
-
-
             <div class="l-main-hide-contents"></div>
-
           </div><!--l-single__bottom__background-->
-
+         
           <footer class="l-footer p-archive__footer">
 
             <a href="/page.html">
               <p class="p-archive__footer__p">ショップ情報｜ヒストリー</p>
             </a><!--page.html-->
-
             <small class="l-footer_copyright p-archive__footer_copyright">Copyright: RaiseTeck</small>
 
           </footer>
         </div><!--l-main__content"-->
       </div><!--main-->
     </main>
-
     <!--サイドメニュー-->
     <aside class="l-sidebar__area">
       <div class="l-sidebar__background"></div><!--background-color-->
@@ -251,7 +170,6 @@ jquery.min.js">
             <a href="#">バーガー</a>
           </div>
 
-
           <ul>
             <li class="l-sidebar__item"><a href="#">ハンバーガー</a></li>
             <li class="l-sidebar__item"><a href="#">チーズバーガー</a></li>
@@ -260,7 +178,6 @@ jquery.min.js">
             <li class="l-sidebar__item"><a href="#">フィッシュバーガー</a></li>
             <li class="l-sidebar__item"><a href="#">ベーコンバーガー</a></li>
             <li class="l-sidebar__item"><a href="#">チキンバーガー</a></li>
-
           </ul>
         </div><!--l-sidebar__top-title-->
 
@@ -294,11 +211,7 @@ jquery.min.js">
     </aside><!--l-sidebar__area-->
     <!---サイドメニュー-->
 
-  </article><!--wrapper-->
-
-
-
-
+  </article>
 
   <!-- javascriptファイル -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"

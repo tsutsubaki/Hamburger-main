@@ -717,7 +717,7 @@ td:last-of-type {
 }
 
 .p-top__caption {
-  background-image: url(../img/mainvisual-sp.jpg);
+  background-image: url(../../../img/mainvisual-sp.jpg);
 }
 
 .c-top__caption {
@@ -735,7 +735,7 @@ td:last-of-type {
 }
 @media screen and (min-width: 1025px) {
   .c-top__caption {
-    background-image: url(../img/pc-top.jpg);
+    background-image: url(../../../img/pc-top.jpg);
     height: 34.1274951706vw;
   }
 }
@@ -766,11 +766,11 @@ td:last-of-type {
 }
 
 section.figcaption-1 {
-  background-image: url("../img/middleburger.jpeg");
+  background-image: url("../../../img/middleburger.jpeg");
 }
 @media screen and (min-width: 1025px) {
   section.figcaption-1 {
-    background-image: url("../img/three-burgers.jpeg");
+    background-image: url("../../../img/three-burgers.jpeg");
   }
 }
 section.figcaption-2 {

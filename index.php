@@ -1,59 +1,10 @@
-<!DOCTYPE html>
-<html lang="ja">
 
-<head>
-  <title>Hamburger</title>
-
-  <meta charset="UTF-8">
-
-  <!-- Webサイトの説明を検索エンジンに伝える -->
-  <meta name="description" content="ハンバーガーサイト">
-
-  <!-- サイトの表示領域を、閲覧するデバイスの幅に合わせる -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-  <link rel="stylesheet" href="./css/style.css" type="text/css">
-
-  <!-- jQuery -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/　
-jquery.min.js">
-</script>-->
-
-  <script src="https://kit.fontawesome.com/b0d0736d54.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <article class="c-wrapper ">
-
-
-    <main class="c-main">
-      <header id="l-header">
-
-        <!--Menuから✖️-->
-        <div id="l-header__content">
-          <div id="l-header__menu" class="button">Menu</div>
-          <div id="l-header__logo"> Hamburger</div>
-        </div><!--l-header__content-->
-
-        <!-- ヘッダー検索ボタン -->
-        <div class="c-search-box">
-          <form id="form1" class="c-form">
-            <input id="sbox1" name="s" type="text">
-            <input id="sbtn1" class="button" type="submit" value="検索">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </form>
-        </div><!--c-search-box-->
-
-      </header>
+<?php get_header(); ?>
 
       <div class="l-main">
         <div class="l-main__content">
           <div class="c-top__caption p-top__caption">
+            
             <h1 class="c-top__title">ダミーサイト</h1>
           </div>
 
@@ -129,76 +80,13 @@ jquery.min.js">
       <div class="l-main-hide-contents"></div>
 
 
+      
+      <?php get_footer(); ?>
+      <?php get_sidebar(); ?>
 
-      <footer class="l-footer ">
-        <a href="/page.html">
-          <p>ショップ情報｜ヒストリー</p>
-        </a><!--page.html-->
+      
 
-        <small class="l-footer_copyright">Copyright: RaiseTeck</small>
-
-      </footer>
-    </main>
-
-    <!--サイドメニュー-->
-    <aside class="l-sidebar__area">
-      <div class="l-sidebar__background"></div><!--background-color-->
-
-
-      <div class="l-sidebar__nav">
-        <h2 class="l-sidebar__menu">Menu</h2>
-
-        <!--sidebar　✖️　-->
-        <span class="l-sidebar__close "></span>
-        <div class="l-sidebar__top-title">
-          <div class="l-sidebar__title">
-            <a href="#">バーガー</a>
-          </div>
-
-          <ul>
-            <li class="l-sidebar__item"><a href="#">ハンバーガー</a></li>
-            <li class="l-sidebar__item"><a href="#">チーズバーガー</a></li>
-            <li class="l-sidebar__item"><a href="#">テリヤキバーガー</a></li>
-            <li class="l-sidebar__item"><a href="#">アボガドバーガー</a></li>
-            <li class="l-sidebar__item"><a href="#">フィッシュバーガー</a></li>
-            <li class="l-sidebar__item"><a href="#">ベーコンバーガー</a></li>
-            <li class="l-sidebar__item"><a href="#">チキンバーガー</a></li>
-          </ul>
-        </div><!--l-sidebar__top-title-->
-
-        <div class="l-sidebar__title">
-          <a href="">サイド</a>
-        </div>
-
-        <ul>
-          <li class="l-sidebar__item"><a href="#">ポテト</a></li>
-          <li class="l-sidebar__item"><a href="#">サラダ</a></li>
-          <li class="l-sidebar__item"><a href="#">ナゲット</a></li>
-          <li class="l-sidebar__item"><a href="#">コーン</a></li>
-        </ul>
-
-        <div class="l-sidebar__title">
-          <a href="">ドリンク</a>
-        </div>
-
-        <ul>
-          <li class="l-sidebar__item"><a href="#">コーラ</a></li>
-          <li class="l-sidebar__item"><a href="#">ファンタ</a></li>
-          <li class="l-sidebar__item"><a href="#">オレンジ</a></li>
-          <li class="l-sidebar__item"><a href="#">アップル</a></li>
-          <li class="l-sidebar__item"><a href="#">紅茶(Ice/Hot)</a></li>
-          <li class="l-sidebar__item"><a href="#">コーヒー(Ice/Hot)</a></li>
-        </ul>
-
-      </div><!--l-side__nav-->
-
-
-    </aside><!--l-sidebar__area-->
-    <!---サイドメニュー-->
-
-  </article><!--wrapper-->
-
-
+  
 
 
 
