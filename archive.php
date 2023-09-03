@@ -18,6 +18,13 @@
 
             <a href="/single.html">
 
+
+            <?php
+    if( have_posts() ) : //1.投稿データがあるかの条件分岐。
+        while( have_posts() ) : // 2.表示する投稿データがあれば繰り返し処理開始
+            the_post(); //3.ループ処理に必要なカウント処理等
+
+
               <section class="p-figcaption__1 p-figcaption">
                 <figure class="p-archive__image">
                   <img src="/img/archive2x.png" alt="ハンバーガー" class="l-archive__img">
@@ -49,6 +56,14 @@
                 </div><!--p-theme-->
               </section>
             </a><!--single.html-->
+
+      
+          endwhile; // 5.繰り返し処理ここまで。投稿データがまだあればwhileに戻る。なければ終了
+          else : //6.投稿データがなければ
+              ?><p>表示する記事がありません</p><?php //7.ない時の処理
+          endif; ?> //8.条件分岐終了
+      ?>
+
 
             <a href="/single.html">
               <section class="p-figcaption__3 p-figcaption">
@@ -185,3 +200,7 @@
 </body>
 
 </html>
+
+/*
+Template Name: HAMBURGER archiveページ
+*/

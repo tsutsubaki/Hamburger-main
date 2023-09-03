@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?php language_attributes(); ?>"> 
+<html lang="<?php language_attributes(); ?>"> <!--言語設置を自動的に-->
 
 <head>
   
@@ -17,12 +17,13 @@
         <meta name="keywords" content="WordPress, Theme, development">
  
   <!-- CSS -->
-<!-- 
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+
+
+   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/./css/style.css" type="text/css">
--->
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/./css/style.css" type="text/css"> -->
+
 
   <!-- jQuery -->
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/　
@@ -54,5 +55,5 @@ jquery.min.js">
       
         <?php get_search_form(); ?>
    
-
+    
       </header>

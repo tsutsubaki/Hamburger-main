@@ -30,10 +30,10 @@
               </div>
 
             </blockquote>
-            <div class="p-single__image"><img src="/img/single page second.png" alt="ハンバーガー"></div>
+            <div class="p-single__image"><img src="<?php echo get_template_directory_uri(); ?>/img/single page second.png" alt="ハンバーガー"></div>
             <div class="l-single__grid">
 
-              <img src="/img/single page small.png" alt="ハンバーガー">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single page small.png" alt="ハンバーガー">
 
               <blockquote class=p-single__small__blockquote> テキストが入ります テキストが入ります テキストが入ります テキストが入ります
                 テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります
@@ -50,19 +50,19 @@
                 テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります
               </blockquote>
 
-              <img src="/img/single page small.png" alt="ハンバーガー">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single page small.png" alt="ハンバーガー">
             </div><!--l-single__flex-->
-            <img src="/img/single page small.png" alt="ハンバーガー" class=" p-single__smallpic__first">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/single page small.png" alt="ハンバーガー" class=" p-single__smallpic__first">
             <div class="l-single__grid__layout">
-              <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
-              <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
-              <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
-              <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
-              <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
-              <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
-              <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
-              <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
-              <img src="/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single-hamberger.png" alt="ハンバーガー" class="p-single__smallpic">
             </div>
             <div class="l-single__bottom__background">
               <div class="l-single__list__inner">
@@ -221,3 +221,7 @@
 </body>
 
 </html>
+
+/*
+Template Name: HAMBURGER singleページ
+*/

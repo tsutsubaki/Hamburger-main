@@ -3,17 +3,28 @@
       <div class="l-sidebar__background"></div><!--background-color-->
 
 
+      <!-- <section class="nav_menu"> -->
+
       <?php
         if ( is_active_sidebar( 'category_widget' ) ) :
             dynamic_sidebar( 'category_widget' );
         else:
     ?>
     <div class="widget">
-      <div class="l-sidebar__nav">
+        <h2>No Widget</h2>
+        <p>ウィジットは設定されていません。</p>
+    </div>
+    <?php endif; ?>
+
+        <!-- </section> -->
+
+      <!--l-side__nav-->
+
+      <!-- <div class="l-sidebar__nav">
         <h2 class="l-sidebar__menu">Menu</h2>
 
-        <!--sidebar　✖️　-->
-        <span class="l-sidebar__close "></span>
+
+  <span class="l-sidebar__close "></span>
         <div class="l-sidebar__top-title">
           <div class="l-sidebar__title">
             <a href="#">バーガー</a>
@@ -28,7 +39,7 @@
             <li class="l-sidebar__item"><a href="#">ベーコンバーガー</a></li>
             <li class="l-sidebar__item"><a href="#">チキンバーガー</a></li>
           </ul>
-        </div><!--l-sidebar__top-title-->
+        </div>
 
         <div class="l-sidebar__title">
           <a href="">サイド</a>
@@ -54,12 +65,16 @@
           <li class="l-sidebar__item"><a href="#">コーヒー(Ice/Hot)</a></li>
         </ul>
 
-      </div><!--l-side__nav-->
+      </div>l-side__nav -->
+    
+    
+    
 
-      <?php endif; ?>
     </aside><!--l-sidebar__area-->
     <!---サイドメニュー-->
 
   </article><!--wrapper-->
 
   </div>
+  
+  

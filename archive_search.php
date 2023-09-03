@@ -206,3 +206,7 @@
 </body>
 
 </html>
+
+/*
+Template Name: HAMBURGER archive_searchページ
+*/

@@ -516,6 +516,15 @@ small.l-footer_copyright {
   }
 }
 
+.menu-item {
+  font-weight: 400;
+  font-family: "M+ 1m";
+  margin: 20px 102px 20px 66px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  width: 180px;
+}
+
 .c-inner {
   margin: 0 auto;
 }
@@ -1300,7 +1309,7 @@ li.c-page__number.c-border:last-child {
 }
 
 .p-single__caption {
-  background-image: url(../../../img/iPhone-single_top.png);
+  background-image: url(/wp-content/themes//img/iPhone-single_top.png);
   height: 60vw;
   background-repeat: no-repeat;
   background-size: cover;

@@ -39,7 +39,7 @@
 
             <div class="l-single__grid">
 
-              <img src="/img/single page small.png" alt="ハンバーガー">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single page small.png" alt="ハンバーガー">
 
               <blockquote class=p-single__small__blockquote> テキストが入ります テキストが入ります テキストが入ります テキストが入ります
                 テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります
@@ -58,11 +58,11 @@
                 テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります
               </blockquote>
 
-              <img src="/img/single page small.png" alt="ハンバーガー">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/single page small.png" alt="ハンバーガー">
 
             </div><!--l-single__flex-->
 
-            <img src="/img/single page small.png" alt="ハンバーガー" class=" p-single__smallpic__first">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/single page small.png" alt="ハンバーガー" class=" p-single__smallpic__first">
 
             <div class="l-single__grid__layout">
 
@@ -256,3 +256,6 @@
 </body>
 
 </html>
+/*
+Template Name: HAMBURGER page
+*/
